@@ -7,10 +7,14 @@
     },
     "license": "UNLICENCED",
     "dependencies": {
-        "d3" : "~4.4.0"
+        "d3": "~4.4.0",
+        "lite-server":"~2.2.2"
     },
     "repository": {
         "type": "git",
         "url": "https://github.com/jishnuap/d3-start.git"
+    },
+    "scripts": {
+        "dev": "lite-server"
     }
 }
